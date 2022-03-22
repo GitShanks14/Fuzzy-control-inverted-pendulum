@@ -1,6 +1,6 @@
 # Fuzzy-control-inverted-pendulum
 
-This repository contains the codes written for the course project of INSTR F343: Industrial Instrumentation & Control.
+This repository contains the codes written for the course project of INSTR F343: Industrial Instrumentation & Control. The project is titled "Fuzzy control of inverted pendulum system".
 
 ## Course details:
 2nd semester 2021-22 </br>
