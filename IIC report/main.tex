@@ -1,0 +1,119 @@
+% !TEX TS-program = pdflatexmk
+
+\documentclass[a4paper, 12pt]{article}
+
+
+% Include math
+\usepackage{amsmath,amsthm,amssymb}
+% Include links
+\usepackage{hyperref}
+%listings
+\usepackage{listings}
+
+%tocibind
+\usepackage[nottoc]{tocbibind}
+
+
+%%%%%%%%%%%%%%  PAGE SETUP %%%%%%%%%%%%%%%%%
+
+\usepackage[margin=1.2in]{geometry}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+\usepackage{pdfpages}
+\linespread{1.25}
+\usepackage[toc,page]{appendix}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{csquotes}
+\usepackage[backend=biber]{biblatex}
+\bibliography{citations}
+\usepackage{caption}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{epstopdf}
+%\usepackage[table]{xcolor}
+\usepackage{misc/matlab}
+\usepackage[export]{adjustbox}
+
+\hypersetup{colorlinks,linkcolor={blue},citecolor={blue},urlcolor={blue}}
+
+\usepackage[framed,numbered,autolinebreaks,useliterate]{misc/mcode}
+\usetikzlibrary{automata,positioning}
+
+\setlength{\droptitle}{-10em}  
+
+% The following sets up some headers
+\usepackage{fancyhdr}
+\setlength{\headheight}{52pt}
+\pagestyle{fancy}
+\lhead{Final report} % Left Header
+\rhead{\thepage} % Right Header
+\cfoot{} % Center Foot (empty)
+
+% Document content begins here
+\begin{document}
+\definecolor{light-gray}{gray}{0.95}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+
+
+\lstset{language=Matlab}
+\lstset{
+    extendedchars=False,
+    literate = 
+    *{~}{{$\neg$}}1
+}
+
+% Set up a title
+
+\begin{titlepage}
+    \centering
+    \vfill
+    \begin{Large}
+        A report \\ on \vspace{0.8cm} \\
+    \end{Large}
+    \textbf{\Huge  Fuzzy control of an \\ \vspace{0.6cm} inverted pendulum system} \\
+    \vspace{10cm}
+    \Large{ \hfill Sashank Krishna S \hfill 2019A8PS0184P \hspace{2cm}} \hfill \\ \vspace{0.5cm}
+    \Large{ \hfill Satwik Vats  \hfill 2019A8PS0194P \hspace{2cm}} \hfill \\ \vspace{0.5cm}
+    \Large{ \hfill Aryan Balyan \hfill 2019A8PS0193P \hspace{2cm}} \hfill \\ \vspace{0.5cm}
+
+\end{titlepage}
+
+\eject
+
+\tableofcontents
+
+\eject
+
+
+
+\section{Introduction}
+
+\section{Mathematical background}
+
+\cite{ref1}
+
+\section{Fuzzy control algorithms}
+
+\section{Results and discussions}
+
+\section{Conclusions}
+
+\pagebreak
+
+\printbibliography[heading=bibnumbered]
+
+
+\pagebreak
+
+
+
+\end{document}
+

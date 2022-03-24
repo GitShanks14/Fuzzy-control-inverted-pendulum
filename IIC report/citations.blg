@@ -1,0 +1,5 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'citations.blg'
+[48] biber-darwin:340> INFO - === Sat Mar 12, 2022, 01:06:21
+[163] Utils.pm:411> ERROR - Cannot find 'citations.bcf'!
+[163] Biber.pm:132> INFO - ERRORS: 1
