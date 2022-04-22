@@ -16,4 +16,4 @@ H = (m*l*s^2)/((I+m*l^2)*s^2 - m*g*l);
 % PID controller
 Kc = -0.001;
 Ki = -0.75;
-Kd = 0.11;
+Kd = 0.1;
