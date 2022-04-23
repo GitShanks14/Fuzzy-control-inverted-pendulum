@@ -9,6 +9,7 @@ Int = 0;
 phi = zeros(length(t),1);
 
 d_stdev = 0.01;
+dist    = 0;
 
 % Initial conditions: 
 u(1) = 0;
@@ -17,16 +18,17 @@ u(2) = 0;
 % u(3:end) = sin(50*pi*(0:dt:T));
 
 phi(1) = 0;
-phi(2) = 1e-3;
+phi(2) = max(dist*randn(1),1e-3);
 
 % Simulation
 i = 3;
 
 % Animation
+plotting = true;
 record = false;
 
 if record
-    v = VideoWriter('video\NL_PID_pendulum.mp4','MPEG-4');
+    v = VideoWriter('video\NL_PID_Dist_1.mp4','MPEG-4');
     open(v);
 end
 stable = true;
@@ -34,6 +36,9 @@ stable = true;
 while ( (i < length(t)) && stable )
     % System:
     NL_step;
+
+    % Disturbance:
+    phi(i) = phi(i) + dist * randn(1);
 
     while(phi(i) > pi)
         phi(i) = phi(i)-2*pi;
@@ -44,11 +49,12 @@ while ( (i < length(t)) && stable )
     end
 
     % Controller:
-    PID_control;
+    %PID_control;
+    fuzzy_control;
 
     % Video
     if record
-    %record_base;
+    % record_base;
     record_pendulum;
     
         writeVideo(v,frame);
@@ -74,17 +80,19 @@ if record
     close(v);
 end
 
-figure;
-subplot(2,1,1);
-plot(t_new,u_new);
-xlabel("Time (s)");
-ylabel("Displacement (m)");
-title("Input displacement");
-
-subplot(2,1,2);
-plot(t_new,phi_new);
-xlabel("Time (s)");
-ylabel("Deviation angle (rad)");
-title("Output deviation angle");
-
-sgtitle("Input vs Output");
+if plotting
+    figure;
+    subplot(2,1,1);
+    plot(t_new,u_new);
+    xlabel("Time (s)");
+    ylabel("Displacement (m)");
+    title("Input displacement");
+    
+    subplot(2,1,2);
+    plot(t_new,phi_new);
+    xlabel("Time (s)");
+    ylabel("Deviation angle (rad)");
+    title("Output deviation angle");
+    
+    sgtitle("Input vs Output");
+end

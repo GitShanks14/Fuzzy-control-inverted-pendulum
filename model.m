@@ -13,7 +13,10 @@ phi = 0;
 s = tf('s');
 H = (m*l*s^2)/((I+m*l^2)*s^2 - m*g*l);
 
-% PID controller
-Kc = -0.001;
-Ki = -0.75;
-Kd = 0.11;
+% PID controller: 1/s[s2Kd+sKc+Ki)
+Kc = 0.48;
+Ki = -1.6;
+Kd = -0.025;
+
+% Fuzzy control
+fuzzy_def;

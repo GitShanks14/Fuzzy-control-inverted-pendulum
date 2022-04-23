@@ -1,1 +1,3 @@
-true
+clear;
+close all;
+clc;
