@@ -9,7 +9,7 @@ Int = 0;
 phi = zeros(length(t),1);
 
 d_stdev = 0.01;
-dist    = 0;
+dist    = 1e-6;
 
 % Initial conditions: 
 u(1) = 0;
@@ -25,10 +25,10 @@ i = 3;
 
 % Animation
 plotting = true;
-record = false;
+record = true;
 
 if record
-    v = VideoWriter('video\NL_PID_Dist_1.mp4','MPEG-4');
+    v = VideoWriter('video\test','MPEG-4');
     open(v);
 end
 stable = true;
@@ -49,8 +49,8 @@ while ( (i < length(t)) && stable )
     end
 
     % Controller:
-    %PID_control;
-    fuzzy_control;
+    PID_control;
+    % fuzzy_control;
 
     % Video
     if record
@@ -89,9 +89,9 @@ if plotting
     title("Input displacement");
     
     subplot(2,1,2);
-    plot(t_new,phi_new);
+    plot(t_new,phi_new*180/pi);
     xlabel("Time (s)");
-    ylabel("Deviation angle (rad)");
+    ylabel("Deviation angle (degrees)");
     title("Output deviation angle");
     
     sgtitle("Input vs Output");

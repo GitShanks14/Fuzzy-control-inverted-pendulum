@@ -1,7 +1,7 @@
 % fuzzification
-da      = 0.1;
+da      = 0.01;
 angles  = -180:da:180;
-width   = 30;
+w   = 30;
 
 z       = zeros(length(angles),1);
 p       = zeros(length(angles),1);
@@ -53,7 +53,7 @@ ylim([0 1]);
 legend("VN","N","Z","P","VP");
 
 % Control rules:
-y_sys = [3 1 0 -1 -3];
+y_sys = [2 1 0 -1 -2];
 
 % Defuzzification factor:
-Kd  = 0.01;
+Kdefuz  = 0.1;

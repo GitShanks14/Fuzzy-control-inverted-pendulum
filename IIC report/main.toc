@@ -11,4 +11,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Conclusions}{2}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}References}{3}{section.6}%
+\contentsline {section}{\numberline {6}Acknowledgements}{2}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}References}{3}{section.7}%
