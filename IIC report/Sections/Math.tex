@@ -1,5 +1,27 @@
-\section{Mathematical background}
+\section{Mathematical setup}
 
-\cite{ref1}
+The inverted pendulum system could be modelled using the following equation: $$(I + ml^2)\phi'' + mgl sin(\phi) = mlx'' cos(\phi) $$
+The linearized version of the same is given by: $$ (I + ml^2)\phi'' - mgl\phi = mlx'' $$
 
-Hello world
+The model assumes that the pendulum system is a rigid body, and that there is no air resistance. More elaborate models can be formulated in case the factors will be of significance.
+
+\pagebreak
+
+The differential equations were converted into difference equations using central the central differencing approach. Both the non-linear and linear differential equations were converted into this form, but only the non-linear versino is presented below. The rest of this study uses the more accurate non-linear model as well. $$ \phi[i] = \frac{mlcos(\phi[i-1])(u[i]-2u[i-1]+u[i-2])+mglsin(\phi[i-1])dt^2}{I+ml^2}+2\phi[i-1]-\phi[i-2] $$
+
+The initial conditions used correspond to zero inputs and a mild disturbance in $\phi$. If we simulate this model alone, we can see the inverted pendulum fall down, rise back up, and repeat the motion. \\
+
+To make the situation more realistic, gaussian noise was also added to this value of $\phi[i]$. i.e., $\phi[i] = \phi[i] + N(0,\sigma^2)$ was performed. This model for noise is not that realistic, since it can be rather erratic. But if our system can be stabilized despite this level of noise, we should be fine. Furthermore, $\sigma$ can be controlled in the simulation environment. \\
+
+The Pendulum parameters considered for this study are as follows: \cite{ref2}
+\begin{center}
+\begin{tabular}{ | c | c | }
+	\hline
+	Mass 			& 	200 g \\
+	\hline
+	Length 			&	30 cm \\  
+	\hline
+	Moment of Inertia	&	0.006 $kg m^2$ \\
+	\hline
+\end{tabular}
+\end{center}

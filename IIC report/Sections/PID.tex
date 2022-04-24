@@ -1,0 +1,21 @@
+\section{PID controller}
+
+The PID controller was implemented in the velocity form as shown: $$ du = K_{p}(\phi[i]-\phi[i-1]) + K_{i}\phi[i] + K_{d}(phi[i]-2phi[i-1]+phi[i-2])$$ 
+$$u[i+1] =  u[i] + du $$
+
+The PID coefficients used are shown below:
+\begin{center}
+\begin{tabular}{ | c | c | }
+	\hline
+	$K_{p}$ 		& 0.48	 \\
+	\hline
+	$K_{I}$		& -1.6	 \\  
+	\hline
+	$K_{d}$		& -0.025	 \\
+	\hline
+\end{tabular}
+\end{center}
+
+Negative coefficients were used because of the unstable nature of the system. The tuning was done by hand, first by trial and error, and then by manually tweaking the coefficients to improve performance. Approaches such as ZN tuning and Cohen-Coon tuning were not applicable since the system at hand is intrinsically unstable. \\
+
+Tuning could have been done better by using genetic algorithms to guess a set of PID parameters, and then evolve them closer towards the optimal set of parameters. This however was not done due to the lack of time and expertise. 

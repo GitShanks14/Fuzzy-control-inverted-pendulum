@@ -3,14 +3,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Mathematical background}{2}{section.2}%
+\contentsline {section}{\numberline {2}Mathematical setup}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Fuzzy control algorithms}{2}{section.3}%
+\contentsline {section}{\numberline {3}PID controller}{3}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Results and discussions}{2}{section.4}%
+\contentsline {section}{\numberline {4}Fuzzy logic controller}{4}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Conclusions}{2}{section.5}%
+\contentsline {section}{\numberline {5}Results and discussions}{4}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Acknowledgements}{2}{section.6}%
+\contentsline {section}{\numberline {6}Conclusions and learning outcomes}{4}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}References}{3}{section.7}%
+\contentsline {section}{\numberline {7}Contributions}{4}{section.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Acknowledgements}{5}{section.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}References}{5}{section.9}%

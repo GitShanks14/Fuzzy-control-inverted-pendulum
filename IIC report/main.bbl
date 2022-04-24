@@ -32,6 +32,19 @@
       \verb https://nptel.ac.in/courses/106105173
       \endverb
     \endentry
+    \entry{ref2}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Control Tutorials for MATLAB and Simulink - Inverted Pendulum: System Modeling}
+      \field{title}{Inverted pendulum: System modeling}
+      \verb{urlraw}
+      \verb https://ctms.engin.umich.edu/CTMS/index.php?example=InvertedPendulum§ion=SystemModeling
+      \endverb
+      \verb{url}
+      \verb https://ctms.engin.umich.edu/CTMS/index.php?example=InvertedPendulum%C2%A7ion=SystemModeling
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

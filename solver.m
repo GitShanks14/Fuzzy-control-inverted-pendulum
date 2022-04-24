@@ -9,7 +9,7 @@ Int = 0;
 phi = zeros(length(t),1);
 
 d_stdev = 0.01;
-dist    = 1e-2;
+dist    = 1e-6;
 
 % Initial conditions: 
 u(1) = 0;
@@ -49,8 +49,8 @@ while ( (i < length(t)) && stable )
     end
 
     % Controller:
-    % PID_control;
-    fuzzy_control;
+    PID_control;
+    % fuzzy_control;
 
     % Video
     if record
