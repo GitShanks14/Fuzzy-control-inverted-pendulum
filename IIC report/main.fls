@@ -1528,6 +1528,16 @@ INPUT ./Sections/Fuzzy.tex
 INPUT ./Sections/Fuzzy.tex
 INPUT ./Sections/Fuzzy.tex
 INPUT Sections/Fuzzy.tex
+INPUT ./images/fuzzify.png
+INPUT ./images/fuzzify.png
+INPUT images/fuzzify.png
+INPUT ./images/fuzzify.png
+INPUT ./images/fuzzify.png
+INPUT ./images/Action.png
+INPUT ./images/Action.png
+INPUT images/Action.png
+INPUT ./images/Action.png
+INPUT ./images/Action.png
 INPUT ./Sections/Results.tex
 INPUT ./Sections/Results.tex
 INPUT ./Sections/Results.tex
