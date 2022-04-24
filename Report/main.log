@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.11)  24 APR 2022 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.11)  24 APR 2022 16:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1528,7 +1528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<images/fuzzify.png, id=91, 1124.2pt x 843.15pt>
+<images/fuzzify.png, id=92, 1124.2pt x 843.15pt>
 File: images/fuzzify.png Graphic file (type png)
 <use images/fuzzify.png>
 Package pdftex.def Info: images/fuzzify.png  used on input line 7.
@@ -1538,7 +1538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<images/Action.png, id=93, 1124.2pt x 843.15pt>
+<images/Action.png, id=94, 1124.2pt x 843.15pt>
 File: images/Action.png Graphic file (type png)
 <use images/Action.png>
 Package pdftex.def Info: images/Action.png  used on input line 16.
@@ -1566,13 +1566,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<images/PID.png, id=109, 1124.2pt x 843.15pt>
+<images/PID.png, id=110, 1124.2pt x 843.15pt>
 File: images/PID.png Graphic file (type png)
 <use images/PID.png>
 Package pdftex.def Info: images/PID.png  used on input line 11.
 (pdftex.def)             Requested size: 393.47589pt x 295.10692pt.
 [6 <./images/PID.png (PNG copy)>]
-<images/FLC.png, id=118, 1124.2pt x 843.15pt>
+<images/FLC.png, id=119, 1124.2pt x 843.15pt>
 File: images/FLC.png Graphic file (type png)
 <use images/FLC.png>
 Package pdftex.def Info: images/FLC.png  used on input line 20.
@@ -1631,10 +1631,10 @@ f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/lm/lmri12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lms
 y8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (10 pages, 375623 bytes).
+Output written on main.pdf (10 pages, 375981 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 194 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
