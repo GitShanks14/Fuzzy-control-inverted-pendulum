@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.11)  24 APR 2022 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.11)  24 APR 2022 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1528,7 +1528,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<images/fuzzify.png, id=85, 1124.2pt x 843.15pt>
+<images/fuzzify.png, id=91, 1124.2pt x 843.15pt>
 File: images/fuzzify.png Graphic file (type png)
 <use images/fuzzify.png>
 Package pdftex.def Info: images/fuzzify.png  used on input line 7.
@@ -1538,7 +1538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<images/Action.png, id=87, 1124.2pt x 843.15pt>
+<images/Action.png, id=93, 1124.2pt x 843.15pt>
 File: images/Action.png Graphic file (type png)
 <use images/Action.png>
 Package pdftex.def Info: images/Action.png  used on input line 16.
@@ -1556,35 +1556,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-) (./Sections/Results.tex [5 <./images/Action.png (PNG copy)>])
-(./Sections/Conclusions.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--1
+) (./Sections/Results.tex [5 <./images/Action.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (./Sections/Contributions.tex [6]) (./Sections/Acknowledgements.tex)
+<images/PID.png, id=109, 1124.2pt x 843.15pt>
+File: images/PID.png Graphic file (type png)
+<use images/PID.png>
+Package pdftex.def Info: images/PID.png  used on input line 11.
+(pdftex.def)             Requested size: 393.47589pt x 295.10692pt.
+[6 <./images/PID.png (PNG copy)>]
+<images/FLC.png, id=118, 1124.2pt x 843.15pt>
+File: images/FLC.png Graphic file (type png)
+<use images/FLC.png>
+Package pdftex.def Info: images/FLC.png  used on input line 20.
+(pdftex.def)             Requested size: 393.47589pt x 295.10692pt.
+) (./Sections/Conclusions.tex [7 <./images/FLC.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+) (./Sections/Future.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) (./Sections/Contributions.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--1
+
+ []
+
+[8]) (./Sections/Acknowledgements.tex)
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-05.
+06.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7] (./main.aux)
+) [9] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F9D172ADA47058B2C0C1F7EDCB1A195C;1233.
+(rerunfilecheck)             Checksum: 14584F2491AB0F5D84AAD1DF37AA2306;1341.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35422 strings out of 478994
- 651426 string characters out of 5858184
- 1406598 words of memory out of 5000000
- 52235 multiletter control sequences out of 15000+600000
+ 35450 strings out of 478994
+ 651807 string characters out of 5858184
+ 1406733 words of memory out of 5000000
+ 52250 multiletter control sequences out of 15000+600000
  439779 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,11n,124p,737b,1684s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1601,10 +1631,10 @@ f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/lm/lmri12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/lm/lmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lms
 y8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (8 pages, 256014 bytes).
+Output written on main.pdf (10 pages, 375623 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,7 +9,7 @@ The model assumes that the pendulum system is a rigid body, and that there is no
 
 The differential equations were converted into difference equations using central the central differencing approach. Both the non-linear and linear differential equations were converted into this form, but only the non-linear versino is presented below. The rest of this study uses the more accurate non-linear model as well. $$ \phi[i] = \frac{mlcos(\phi[i-1])(u[i]-2u[i-1]+u[i-2])+mglsin(\phi[i-1])dt^2}{I+ml^2}+2\phi[i-1]-\phi[i-2] $$
 
-The initial conditions used correspond to zero inputs and a mild disturbance in $\phi$. If we simulate this model alone, we can see the inverted pendulum fall down, rise back up, and repeat the motion. \\
+The initial conditions used correspond to zero inputs and a mild disturbance in $\phi$. If we simulate this model alone, we can see the inverted pendulum fall down, rise back up, and repeat the motion, as shown \href{https://drive.google.com/file/d/1yxK98jd5MMN-ZS-9CXhYLmzXG_MvcPZX/view?usp=sharing}{here}. \\
 
 To make the situation more realistic, gaussian noise was also added to this value of $\phi[i]$. i.e., $\phi[i] = \phi[i] + N(0,\sigma^2)$ was performed. This model for noise is not that realistic, since it can be rather erratic. But if our system can be stabilized despite this level of noise, we should be fine. Furthermore, $\sigma$ can be controlled in the simulation environment. \\
 

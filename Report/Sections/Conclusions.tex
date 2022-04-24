@@ -1,7 +1,14 @@
 \section{Conclusions}
 
-1. PID > FLC under normal conditions
-2. large number of sets + customized gains -> smooth / intricate controller, which could outperform PID
+Since the PID controller takes action while factoring 3 different facets of the deviation angle, it outperforms our current fuzzy controller. We will need to upgrade our fuzzy controller if we want it to compete. Overall, we need to design the Control Action vs $\phi$ curve better. The things we could do to achieve this include
+\begin{enumerate}
+	\item Increase the number of sets we can classify the state into
+	\item Select the control action values better
+	\item Consider multiple facets of the error, such as the integral and derivative as well
+	\item Use a different class of membership functions
+\end{enumerate}
+
+Another thing we could do is to get the best of both worlds by implementing a form of fuzzy PID control. 
 
 \section{Learning Outcomes}
 
