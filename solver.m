@@ -9,7 +9,7 @@ Int = 0;
 phi = zeros(length(t),1);
 
 d_stdev = 0.01;
-dist    = 1e-6;
+dist    = 1e-2;
 
 % Initial conditions: 
 u(1) = 0;
@@ -25,10 +25,10 @@ i = 3;
 
 % Animation
 plotting = true;
-record = true;
+record = false;
 
 if record
-    v = VideoWriter('video\test','MPEG-4');
+    v = VideoWriter('video\NL_fuzzy_1','MPEG-4');
     open(v);
 end
 stable = true;
@@ -49,13 +49,13 @@ while ( (i < length(t)) && stable )
     end
 
     % Controller:
-    PID_control;
-    % fuzzy_control;
+    % PID_control;
+    fuzzy_control;
 
     % Video
     if record
-    % record_base;
-    record_pendulum;
+    record_base;
+    % record_pendulum;
     
         writeVideo(v,frame);
     end
